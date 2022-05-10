@@ -28,7 +28,6 @@ Route::get('/registration_course', 'RegisCourseController@getCourseInRegis');
 // Schedule
 Route::get('/schedule', 'ScheduleController@getSchedule');
 
-
 // Faculty
 Route::resource('/faculty', 'FacultyController');
 
@@ -38,14 +37,11 @@ Route::resource('/major', 'MajorController');
 //  Class
 Route::resource('/class', 'ClassController');
 
-
-
 //  Course
 Route::resource('course', 'CourseController');
 
 //  Semester
 Route::resource('semester', 'SemesterController');
-
 
 //  ClassSection
 Route::resource('class_section', 'ClassSectionController');
